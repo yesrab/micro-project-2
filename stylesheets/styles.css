@@ -208,13 +208,44 @@ label.material-symbols-rounded {
   width: 90%;
   border-radius: 16px;
   padding: 2%;
+  display: flex;
+  flex-direction: column;
 }
-#infoCard p {
+#infoCard > p {
   color: #04285a;
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-size: 2.5ch;
+  font-size: 2.2ch;
   letter-spacing: 0.3rem;
   margin-top: 5%;
   margin-left: 5%;
+  padding-bottom: 2.5%;
+}
+#infoCard li {
+  margin-left: 5%;
+  padding-top: 3%;
+  padding-left: 3%;
+  letter-spacing: 0.12rem;
+}
+.infoList {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #04285a;
+  letter-spacing: 0.15rem;
+}
+#nextButton {
+  position: relative;
+  top: 25%;
+  left: 80%;
+  margin: 2% 2%;
+  border-radius: 0.5em;
+  width: 15%;
+  height: 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
