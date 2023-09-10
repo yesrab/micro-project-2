@@ -115,7 +115,7 @@ label.material-symbols-rounded {
 #bottemSection {
   width: 100%;
   height: 70vh;
-  background-color: tomato;
+  /* background-color: tomato; */
   display: flex;
   justify-content: space-between;
 }
@@ -198,4 +198,23 @@ label.material-symbols-rounded {
   background-color: rgb(72, 62, 255);
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#infoCard {
+  background-color: white;
+  height: 90%;
+  width: 90%;
+  border-radius: 16px;
+  padding: 2%;
+}
+#infoCard p {
+  color: #04285a;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 2.5ch;
+  letter-spacing: 0.3rem;
+  margin-top: 5%;
+  margin-left: 5%;
 }
