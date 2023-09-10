@@ -183,7 +183,6 @@ label.material-symbols-rounded {
   font-weight: 700;
   font-size: 2ch;
   line-height: 1.9em;
-  align-items: center;
   border: 5px solid white;
   border-radius: 16px;
   color: white;
@@ -192,6 +191,7 @@ label.material-symbols-rounded {
   background-color: rgb(188, 224, 246);
   border: rgb(188, 224, 246);
   color: black;
+  box-shadow: 4px 7px 32px 0px #00000070;
 }
 #rightHalf {
   width: 60%;
