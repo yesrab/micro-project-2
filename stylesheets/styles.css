@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+}
+
+#topNavBar {
+  background-color: #6f6af7;
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+#navBarLogo {
+  padding-left: 2vw;
+}
+#navBarLogo a {
+  font-family: "Delius Unicase";
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+#navBarLinks {
+  display: flex;
+  gap: 4rem;
+  font-size: 1.5rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#navBarLinks p.material-symbols-rounded {
+  display: inline;
+  align-self: center;
+}
+
+#searchField {
+  background-color: white;
+  height: 35%;
+  width: 15%;
+  /* border: 1px solid black; */
+  border-radius: 2ch;
+  display: flex;
+  box-sizing: content-box;
+  justify-content: space-between;
+}
+#searchField input {
+  border: none;
+  width: 70%;
+  margin-left: 8%;
+  font-size: 1rem;
+  font-weight: 400;
+  box-sizing: border-box;
+  outline: none;
+}
+#searchField p.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 2;
+  color: #adadad;
+  font-size: 2rem;
+  padding-right: 5%;
+}
+
+label.material-symbols-rounded {
+  display: flex;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  color: white;
+  padding-right: 2vw;
+  font-size: 4rem;
+}
+.hamCheck {
+  appearance: none;
+}
+
+#socialMediaContainer {
+  position: sticky;
+  top: 15vh;
+  padding-top: 1%;
+  margin-top: 30vh;
+  float: right;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+}
+
+#main {
+  /* background-color: blue; */
+  margin-top: 15vh;
+  padding: 5% 7%;
+  height: auto;
+}
+#topSection {
+  width: 100%;
+  height: 50vh;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+}
+#midSection {
+  width: 100%;
+  height: 29.5vh;
+  background-color: chartreuse;
+}
+#bottemSection {
+  width: 100%;
+  height: 60vh;
+  background-color: tomato;
+}
+#imageCode {
+  height: 100%;
+  width: auto;
+  border-radius: 16px;
+  box-shadow: 4px 7px 32px 0px #00000070;
+}
+
+#textField {
+  background-color: #e4d8ff;
+  height: 100%;
+  width: 70%;
+  margin-right: 2%;
+  border-radius: 16px;
+  padding: 2% 2%;
+  font-weight: 400;
+  font-size: 2ch;
+  line-height: 3ch;
+  color: rgba(0, 0, 0, 0.5);
+  /* box-shadow: 4px 7px 32px 0px #00000070; */
+}
