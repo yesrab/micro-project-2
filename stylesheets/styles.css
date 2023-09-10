@@ -172,7 +172,26 @@ label.material-symbols-rounded {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   text-align: center;
+}
+.userTabs {
+  width: 50%;
+  height: 20%;
+  background-color: rgb(72, 62, 255);
+  padding: 5%;
+  font-weight: 700;
+  font-size: 2ch;
+  line-height: 1.9em;
+  align-items: center;
+  border: 5px solid white;
+  border-radius: 16px;
+  color: white;
+}
+#yourInfo {
+  background-color: rgb(188, 224, 246);
+  border: rgb(188, 224, 246);
+  color: black;
 }
 #rightHalf {
   width: 60%;
