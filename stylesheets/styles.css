@@ -108,7 +108,9 @@ label.material-symbols-rounded {
 #midSection {
   width: 100%;
   height: 29.5vh;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
+  display: flex;
+  justify-content: space-around;
 }
 #bottemSection {
   width: 100%;
@@ -134,4 +136,29 @@ label.material-symbols-rounded {
   line-height: 3ch;
   color: rgba(0, 0, 0, 0.5);
   /* box-shadow: 4px 7px 32px 0px #00000070; */
+}
+.midBoxes {
+  height: 60%;
+  width: 20%;
+  margin-top: 3%;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 2ch;
+  line-height: 3ch;
+  padding: 1% 2%;
+  color: white;
+  box-shadow: 4px 7px 32px 0px #00000070;
+}
+
+#totalQue {
+  background-color: rgb(146, 156, 255);
+}
+#totalAns {
+  background-color: rgb(115, 76, 242);
+}
+#Participated {
+  background-color: rgb(210, 136, 255);
+}
+#Total-Passed {
+  background-color: rgb(0, 0, 0);
 }
