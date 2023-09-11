@@ -280,6 +280,7 @@ label.material-symbols-rounded {
   z-index: 99;
   display: flex;
   box-shadow: 4px 7px 32px 0px #00000070;
+  cursor: pointer;
 }
 
 #supportBubble img {
